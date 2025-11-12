@@ -1,0 +1,34 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main () {
+    vector<int> v;
+
+    //for loop
+    for(int i=0; i<=5; i++) {
+        int element;
+        cin>>element;
+        v.push_back(element);
+    }
+
+    for(int i=0; i<(int) v.size(); i++) {  //(int)->{⚠️ Signed/unsigned warning	Some compilers warn about comparing int with size_t, but it’s not a real error. You can cast: i < (int)v.size() to suppress warning.}
+        cout<<v[i]<<" ";
+    }
+    cout<<endl;
+
+    v.insert(v.begin()+2,6);
+
+    //for each loop
+    for(int ele:v) {
+        cout<<ele<<" ";
+    }
+    cout<<endl;
+
+    v.erase(v.end()-2);
+
+    //while loop
+    int idx=0;
+    while(idx<(int)v.size()) {
+        cout<<v[idx++]<<" ";
+    }
+}
