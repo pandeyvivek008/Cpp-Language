@@ -1,3 +1,21 @@
+/*
+    QUESTION: Find First and Last Occurrence of an Element in a Sorted Array
+
+    Given a sorted array containing duplicate elements, 
+    your task is to find the FIRST and LAST occurrence index
+    of a given number k using Binary Search.
+
+    If k is not present in the array, return -1 for both.
+
+    Example:
+        Input: arr = [2, 8, 8, 8, 8, 8, 11, 13], k = 8
+        Output: first = 1, last = 5
+
+    Constraints:
+        • Array must be sorted
+        • Use Binary Search (O(log n) time)
+*/
+
 #include<iostream>
 #include<vector>
 using namespace std;

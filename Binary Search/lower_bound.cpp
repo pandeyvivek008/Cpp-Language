@@ -1,6 +1,6 @@
 /*
 ------------------------------------------------------------
-📝 QUESTION:
+QUESTION:
 Write a function `lowerBound` that takes a sorted array and 
 returns the index of the first element which is greater than 
 or equal to a given value `x`.
