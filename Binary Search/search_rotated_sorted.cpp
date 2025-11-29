@@ -1,3 +1,16 @@
+/*Q. Given a rotated sorted array, write a program to search a target element using Modified Binary Search.
+
+Array may be rotated at any pivot. You must return the index of the target if found, otherwise return -1.
+
+Example Input:
+arr = {7, 8, 9, 1, 2, 3, 4, 5, 6}
+target = 1
+
+Expected Output:
+Target found at index: 3
+*/
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
