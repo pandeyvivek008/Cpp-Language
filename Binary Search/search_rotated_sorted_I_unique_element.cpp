@@ -1,4 +1,4 @@
-/*Q. Given a rotated sorted array, write a program to search a target element using Modified Binary Search.
+/* Q. Given a rotated sorted array, write a program to search a target element using Modified Binary Search.
 
 Array may be rotated at any pivot. You must return the index of the target if found, otherwise return -1.
 
