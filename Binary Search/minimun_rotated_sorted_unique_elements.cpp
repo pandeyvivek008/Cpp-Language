@@ -27,7 +27,7 @@ int findMin(vector<int> & arr, int n){
         }
 
         // Left half is sorted
-        if(arr[mid]>=arr[mid]){
+        if(arr[low]<=arr[mid]){
             ans=min(ans,arr[low]);
             low=mid+1;
         }
