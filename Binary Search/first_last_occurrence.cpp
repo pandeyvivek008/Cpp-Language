@@ -60,7 +60,7 @@ int main(){
 
     vector<int> arr= {2,8,8,8,8,8,11,13};
     int n= arr.size();
-    int k=3;
+    int k=8;
 
     int first = firstOccurrence(arr, n, k);
     int last = lastOccurrence(arr, n, k);
