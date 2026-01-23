@@ -38,22 +38,13 @@ vector<vector<int>> fourSum(vector<int>& nums, int target) {
             while(k < l) {
 
                 // Use long long to avoid integer overflow
-                long long sum =
-                    (long long)nums[i] +
-                    nums[j] +
-                    nums[k] +
-                    nums[l];
+                long long sum = (long long) nums[i] + nums[j] +nums[k] +nums[l];
 
                 // CASE 1: Perfect match
                 if(sum == target) {
 
                     // Store the quadruplet
-                    ans.push_back({
-                        nums[i],
-                        nums[j],
-                        nums[k],
-                        nums[l]
-                    });
+                    ans.push_back({nums[i], nums[j], nums[k], nums[l]});
 
                     // Move both pointers
                     k++;
