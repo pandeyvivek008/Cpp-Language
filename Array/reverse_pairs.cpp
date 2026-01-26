@@ -67,8 +67,8 @@ int team(vector <int> & skill, int n)
 
 int main()
 {
-    vector<int> a = {4, 1, 2, 3, 1};
-    int n = 5;
+    vector<int> a = {40, 25, 19, 12, 9, 6, 2};
+    int n = 7;
     int cnt = team(a, n);
     cout << "The number of reverse pair is: "
          << cnt << endl;
